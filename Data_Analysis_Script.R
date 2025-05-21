@@ -21,7 +21,8 @@ library(effsize)
 library(stringr)
 
 #load dataset
-diabetes_data <- read_csv("C:/Users/Godstime/Desktop/Others/Bolton/Portfolio/Assignment_2/diabetic_data.csv")
+#diabetes_data <- read_csv("C:/Users/Godstime/Desktop/Others/Bolton/Portfolio/Assignment_2/diabetic_data.csv")
+diabetes_data <- read_csv("https://raw.githubusercontent.com/Godstyme/diabetic_patients_readmission/main/diabetic_data.csv")
 diabetes_data
 
 
